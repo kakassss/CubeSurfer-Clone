@@ -23,9 +23,7 @@ public class CubeThings : MonoBehaviour
 
             if (!Physics.Raycast(transform.position, Vector3.down, out hit,1f))
             {
-                //transform.position += new Vector3(0, -1, 0);
                 transform.DOBlendableMoveBy(new Vector3(0, -1, 0), 0.1f, false).SetEase(Ease.OutBounce);
-                //transform.DOMoveY(1, 0.2f, false).SetEase(Ease.OutBounce);
             }
             if(Physics.Raycast(transform.position, Vector3.down, out hit, 1f))
             {

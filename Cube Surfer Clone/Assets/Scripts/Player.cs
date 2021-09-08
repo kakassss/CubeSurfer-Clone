@@ -74,7 +74,6 @@ public class Player : MonoBehaviour
             speedZ = 0;
             canMove = false;
         }
-        //transform.position = new Vector3(transform.position.x,transform.position.y,transform.parent.position.z + 15f);
         StraightMovement();
         Movement();
     }   
@@ -151,7 +150,6 @@ public class Player : MonoBehaviour
         if (target.CompareTag("XTag") && cubes.Count == 1)
         {
             gameOver = false;
-            Debug.Log("yoooo");
             StartCoroutine(YouWinX());
         }
         else
