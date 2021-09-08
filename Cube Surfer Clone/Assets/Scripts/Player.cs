@@ -169,14 +169,5 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         myCube.transform.GetChild(0).gameObject.SetActive(false);
     }
- 
-    public void DownChild()
-    {
-        
-        Debug.Log(childTransform.name); 
-        childTransform.localPosition -= new Vector3(0, 1, 0);
-
-    }
-    
 
 }
