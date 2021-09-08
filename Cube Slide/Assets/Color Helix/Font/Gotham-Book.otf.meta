@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 026ca397e5024c7da047aaa472e6b256
+timeCreated: 1533338903
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 'Gotham-Book'
+  fontNames:
+  - Gotham
+  fallbackFontReferences:
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:
