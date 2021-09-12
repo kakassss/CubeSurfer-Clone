@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
 
             if(random > 0.4f)
             {
+                //wassap = cube prefab
                 friendcube = Instantiate(Resources.Load("Wassap") as GameObject, transform.position, Quaternion.identity);
 
 
